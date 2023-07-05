@@ -15,4 +15,4 @@ RUN echo "listen_addresses='*'"  >> /var/lib/pgsql/data/postgresql.conf
 
 EXPOSE 5432
 
-RUN pg_ctl -D /var/lib/pgsql/data start &ja
+RUN pg_ctl -D /var/lib/pgsql/data start &
